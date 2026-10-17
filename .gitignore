@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Datasets and heavy generated artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+outputs/models/*
+!outputs/models/.gitkeep
+
+# Figures, metrics and the final report are intentionally versioned.
+
+# Local learning/preparation files outside the final Part 1 submission
+notebooks/00_environment_and_pandas.ipynb
+notebooks/02_classification_maintenance.ipynb
+outputs/figures/00_*.png
+scripts/create_notebooks.py
+docs/
+src/
+
+# Local tooling
+.kaggle/
+*.log
+tmp/
