@@ -101,9 +101,7 @@ Google Colab et Kaggle sont mentionnés dans l'énoncé comme environnements d'e
 DL-Lab-1/
 |-- assignment/Atelier1.pdf
 |-- notebooks/
-|   |-- 00_environment_and_pandas.ipynb
-|   |-- 01_regression_nyse.ipynb
-|   `-- 02_classification_maintenance.ipynb  # non réalisé dans ce rendu
+|   `-- 01_regression_nyse.ipynb
 |-- outputs/
 |   |-- figures/
 |   `-- metrics/
